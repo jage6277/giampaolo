@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img">
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0 0v8l10-4z" fill="#b89a68"/></marker><style>.air{fill:none;stroke:#f3efe7;stroke-opacity:.25;stroke-width:3;stroke-dasharray:10 12}.under{stroke:#b89a68;stroke-opacity:.7}.car{fill:#171714;stroke:#f3efe7;stroke-opacity:.72;stroke-width:3}.wheel{fill:#080808;stroke:#b89a68;stroke-width:4}.force{stroke:#b89a68;stroke-width:6;marker-end:url(#a)}.label{fill:#b89a68;font:700 14px Arial,sans-serif;letter-spacing:3px}.small{fill:#aaa69c;font:13px Arial,sans-serif;letter-spacing:1.5px}</style></defs>
+  <path class="air" d="M40 125C245 65 490 70 855 125M40 195C250 145 530 150 855 205"/><path class="air under" d="M40 430C270 485 590 480 855 415"/>
+  <path class="car" d="M140 395c55-88 150-135 285-145l165 5c82 10 144 56 182 128l63 14 9 42-102 13c-24 65-119 66-145 4H318c-27 62-120 61-145-3l-91-11 7-36z"/>
+  <circle class="wheel" cx="248" cy="455" r="58"/><circle class="wheel" cx="660" cy="455" r="58"/>
+  <line class="force" x1="350" y1="80" x2="350" y2="238"/><line class="force" x1="555" y1="80" x2="555" y2="242"/>
+  <text class="label" x="452" y="53" text-anchor="middle">AERODYNAMIC LOAD</text>
+  <line class="force" x1="248" y1="480" x2="248" y2="565"/><line class="force" x1="660" y1="480" x2="660" y2="565"/>
+  <text class="small" x="452" y="592" text-anchor="middle">MORE VERTICAL FORCE AT THE TIRES</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop stop-color="#b89a68" stop-opacity=".18"/><stop offset="1" stop-color="#b89a68" stop-opacity=".75"/></linearGradient>
+    <style>.line{fill:none;stroke:url(#g);stroke-width:2}.node{fill:#11110f;stroke:#b89a68;stroke-opacity:.65;stroke-width:2}.t{fill:#f3efe7;font:600 17px Arial,sans-serif;letter-spacing:1px}.s{fill:#aaa69c;font:12px Arial,sans-serif;letter-spacing:1.5px}.c1{fill:#b89a68;font:700 16px Arial,sans-serif;letter-spacing:3px}.c2{fill:#f3efe7;font:500 34px Georgia,serif}</style>
+  </defs>
+  <path class="line" d="M500 310C375 195 270 130 150 95M500 310C350 280 250 270 125 270M500 310C370 430 270 490 150 525M500 310C625 195 730 130 850 95M500 310C650 280 750 270 875 270M500 310C630 430 730 490 850 525"/>
+  <circle class="node" cx="500" cy="310" r="125"/><circle cx="500" cy="310" r="102" fill="none" stroke="#b89a68" stroke-opacity=".25"/>
+  <text class="c1" x="500" y="285" text-anchor="middle">DALLARA</text><text class="c2" x="500" y="330" text-anchor="middle">ENGINEERING</text><text class="s" x="500" y="358" text-anchor="middle">LIGHTWEIGHT • AERO • DYNAMICS</text>
+  <g><circle class="node" cx="150" cy="95" r="72"/><text class="t" x="150" y="91" text-anchor="middle">ALFA ROMEO</text><text class="s" x="150" y="116" text-anchor="middle">ROAD &amp; RACING</text></g>
+  <g><circle class="node" cx="125" cy="270" r="72"/><text class="t" x="125" y="266" text-anchor="middle">LAMBORGHINI</text><text class="s" x="125" y="291" text-anchor="middle">MIURA ERA</text></g>
+  <g><circle class="node" cx="150" cy="525" r="72"/><text class="t" x="150" y="521" text-anchor="middle">FERRARI</text><text class="s" x="150" y="546" text-anchor="middle">ENGINEERING</text></g>
+  <g><circle class="node" cx="850" cy="95" r="72"/><text class="t" x="850" y="91" text-anchor="middle">INDYCAR</text><text class="s" x="850" y="116" text-anchor="middle">CHASSIS PROGRAM</text></g>
+  <g><circle class="node" cx="875" cy="270" r="72"/><text class="t" x="875" y="266" text-anchor="middle">FORMULA E</text><text class="s" x="875" y="291" text-anchor="middle">SPEC CHASSIS</text></g>
+  <g><circle class="node" cx="850" cy="525" r="72"/><text class="t" x="850" y="521" text-anchor="middle">F1 &amp; LE MANS</text><text class="s" x="850" y="546" text-anchor="middle">RACE PROGRAMS</text></g>
+</svg>
