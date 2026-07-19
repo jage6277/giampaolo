@@ -25,9 +25,3 @@ navigationLinks.forEach((link) => {
 
 window.addEventListener("scroll", updateHeader);
 updateHeader();
-
-const currentYear = document.querySelector("#current-year");
-
-if (currentYear) {
-  currentYear.textContent = new Date().getFullYear();
-}

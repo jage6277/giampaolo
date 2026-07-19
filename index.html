@@ -37,7 +37,7 @@
 
     <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation">
       <a href="#legend">The Legend</a>
-      <a href="#chassis">Chassis #007</a>
+      <a href="#proof-of-concept">Chassis #007</a>
       <a href="#process">Our Process</a>
       <a href="#inquire">Inquire</a>
     </nav>
@@ -56,9 +56,9 @@
         </h1>
 
         <p class="hero-copy">
-          Acquire the legendary Dallara Stradale. Hand-sourced in Europe,
-          legally federalized for United States roads, and maintained by elite
-          Italian mechanics.
+          Acquire the legendary Dallara Stradale. Professionally sourced by
+          Giampaolo Services, legally federalized for United States roads, and
+          maintained by elite Italian mechanics.
         </p>
 
         <a class="primary-button" href="#inquire">
@@ -74,9 +74,13 @@
     <section id="legend" class="pedigree-section">
       <div class="pedigree-visual" aria-hidden="true">
         <div class="pedigree-number">01</div>
-        <div class="pedigree-image-placeholder">
-          <span>Historical Dallara image</span>
-        </div>
+        <figure class="pedigree-image-wrap">
+          <img
+            src="assets/images/dallara-history.jpg"
+            alt="Historical photograph of Giampaolo Dallara beside an early automotive chassis"
+            class="pedigree-image"
+          >
+        </figure>
       </div>
 
       <div class="pedigree-content">
@@ -146,12 +150,12 @@
         </aside>
 
         <div class="comparison-layout comparison-layout-clean">
-          <article class="hero-stat">
-            <p class="section-label">Dallara Stradale</p>
-            <div class="hero-stat-number">468</div>
-            <p class="hero-stat-unit">horsepower per tonne</p>
+          <article class="hero-stat serial-007-stat">
+            <p class="section-label">Dallara Stradale Serial #007</p>
+            <div class="hero-stat-number">547</div>
+            <p class="hero-stat-unit serial-hp-tonne-label">horsepower per tonne</p>
             <div class="stat-tags">
-              <span>400 hp</span>
+              <span>468 hp</span>
               <span>855 kg</span>
               <span>2+ g claimed lateral capability</span>
             </div>
@@ -160,7 +164,7 @@
           <div class="comparison-chart">
             <h3>Illustrative power-to-weight comparison</h3>
             <div class="comparison-row featured">
-              <div class="comparison-name"><strong>Dallara Stradale</strong><span>468 hp/tonne</span></div>
+              <div class="comparison-name"><strong>Dallara Stradale Serial #007</strong><span>547 hp/tonne</span></div>
               <div class="comparison-track"><i style="width:100%"></i></div>
             </div>
             <div class="comparison-row">
@@ -217,7 +221,7 @@
       </div>
     </section>
 
-<section class="stradale-section" aria-labelledby="proof-title">
+<section id="proof-of-concept" class="stradale-section" aria-labelledby="proof-title">
       <div class="stradale-intro">
         <div>
           <p class="eyebrow">The Proof of Concept</p>
@@ -234,10 +238,10 @@
         </p>
       </div>
       <figure class="stradale-visual stradale-photo-frame">
-        <img src="assets/images/chassis-007-clean.png" alt="Yellow Dallara Stradale Chassis #007 outside the Grand Junction workshop">
-        <figcaption>Chassis #007 in Giallo Modena at the Grand Junction workshop.</figcaption>
+        <img src="assets/images/chassis-007-clean.png" alt="Yellow Dallara Stradale Chassis #007 photographed on a street in Italy">
+        <figcaption>Chassis #007 in Giallo Modena, photographed in Italy.</figcaption>
       </figure>
-    </section>
+</section>
 
     <section id="chassis" class="chassis-section" aria-labelledby="chassis-title">
       <div class="chassis-heading">
@@ -248,17 +252,50 @@
             <span>Signature-series provenance.</span>
           </h2>
         </div>
-        <p class="chassis-intro">
-          Our own early-production Dallara Stradale demonstrates the complete
-          sourcing, import, federalization, and servicing process we provide
-          for private clients.
-        </p>
+        <div class="chassis-intro chassis-intro-details">
+          <p>
+            Our own early-production Dallara Stradale demonstrates the complete
+            sourcing, import, federalization, and servicing process we provide
+            for private clients.
+          </p>
+          <p>
+            Production is limited to a maximum of 600 Stradale units worldwide,
+            although future European regulations could prevent completion of the
+            full production run.
+          </p>
+          <p>
+            Giampaolo Services can also assist clients in sourcing a new car
+            directly from the factory, subject to availability and factory allocation.
+          </p>
+        </div>
       </div>
-      <div class="chassis-gallery">
-        <div class="gallery-placeholder"><span>Exterior profile</span></div>
-        <div class="gallery-placeholder"><span>Signature and chassis detail</span></div>
-        <div class="gallery-placeholder"><span>Workshop and servicing detail</span></div>
+      
+      <div class="chassis-photo-gallery chassis-photo-gallery-detail" aria-label="Chassis #007 detail gallery">
+        <figure class="chassis-gallery-item chassis-gallery-item-wide">
+          <img
+            src="assets/images/chassis-007-rear.jpg"
+            alt="Rear three-quarter view of yellow Dallara Stradale Chassis #007"
+          >
+          <figcaption>Chassis #007 — rear three-quarter view.</figcaption>
+        </figure>
+
+        <figure class="chassis-gallery-item">
+          <img
+            src="assets/images/carbon-detail.jpg"
+            alt="Close-up of exposed carbon fiber bodywork and wheel detail on a Dallara Stradale"
+          >
+          <figcaption>Exposed carbon-fiber craftsmanship and aerodynamic detailing.</figcaption>
+        </figure>
+
+        <figure class="chassis-gallery-item">
+          <img
+            src="assets/images/interior-detail.jpg"
+            alt="Dallara Stradale cockpit with carbon-fiber tub, racing seats, harnesses, and steering wheel"
+          >
+          <figcaption>Purpose-built cockpit with carbon-fiber tub and race-derived controls.</figcaption>
+        </figure>
       </div>
+
     </section>
 
     <section id="process" class="process-section" aria-labelledby="process-title">
@@ -306,13 +343,15 @@
       <div class="inquiry-intro">
         <p class="eyebrow">Begin Your Journey</p>
         <h2 id="inquiry-title">
-          Schedule a
-          <span>private consultation.</span>
+          Initiate Sourcing
+          <span>Consultation.</span>
         </h2>
         <p>
-          Enter your details below to schedule a private phone consultation
-          with our sourcing director.
+          Tell us how you would configure your ideal Dallara Stradale and we will
+          follow up to discuss sourcing options, including available pre-owned cars
+          and potential factory orders.
         </p>
+        <p class="inquiry-contact">Call us at <a href="tel:+19705191151">970-519-1151</a></p>
       </div>
 
       <form
@@ -342,35 +381,43 @@
           </label>
 
           <label>
-            Primary interest
-            <select name="vehicle_interest" required>
+            Transmission
+            <select name="transmission_preference" required>
               <option value="">Select one</option>
-              <option value="Chassis #007">Chassis #007</option>
-              <option value="Dallara sourcing">Dallara sourcing</option>
-              <option value="Import consultation">Import consultation</option>
-              <option value="General inquiry">General inquiry</option>
+              <option value="Manual">Manual</option>
+              <option value="Automatic">Automatic</option>
+              <option value="Open to either">Open to either</option>
             </select>
           </label>
 
           <label>
-            Purchase timeline
-            <select name="purchase_timeline">
+            Color preference
+            <input type="text" name="color_preference" placeholder="e.g., Giallo Modena">
+          </label>
+
+          <label>
+            Mileage preference
+            <input type="text" name="mileage_preference" placeholder="e.g., Under 5,000 miles">
+          </label>
+
+          <label>
+            Body configuration
+            <select name="body_configuration" required>
               <option value="">Select one</option>
-              <option value="Immediately">Immediately</option>
-              <option value="Within 3 months">Within 3 months</option>
-              <option value="Within 6 months">Within 6 months</option>
-              <option value="Researching">Currently researching</option>
+              <option value="Barchetta">Barchetta</option>
+              <option value="Full Canopy">Full Canopy</option>
+              <option value="Open to either">Open to either</option>
             </select>
           </label>
 
           <label>
-            Approximate budget
-            <select name="budget">
-              <option value="">Prefer not to say</option>
-              <option value="Under $250,000">Under $250,000</option>
-              <option value="$250,000–$350,000">$250,000–$350,000</option>
-              <option value="$350,000–$500,000">$350,000–$500,000</option>
-              <option value="$500,000+">$500,000+</option>
+            Sport exhaust
+            <select name="sport_exhaust_preference">
+              <option value="">Select one</option>
+              <option value="Required">Required</option>
+              <option value="Preferred">Preferred</option>
+              <option value="Not required">Not required</option>
+              <option value="No preference">No preference</option>
             </select>
           </label>
 
@@ -424,7 +471,7 @@
     </div>
     <div class="footer-meta">
       <p>Grand Junction, CO</p>
-      <p>&copy; 2026 Giampaolo Services | All Rights Reserved.</p>
+      <p><a href="tel:+19705191151">970-519-1151</a></p>
     </div>
   </footer>
 

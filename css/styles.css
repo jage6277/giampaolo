@@ -1573,3 +1573,219 @@ a {
     object-position: center center;
   }
 }
+
+
+/* Client content updates */
+.chassis-intro-details {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.chassis-intro-details p {
+  margin: 0;
+}
+
+.inquiry-contact {
+  margin-top: 1.25rem !important;
+  color: var(--text) !important;
+  font-size: 0.95rem;
+}
+
+.inquiry-contact a,
+.footer-meta a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.inquiry-contact a:hover,
+.footer-meta a:hover {
+  text-decoration: underline;
+}
+
+
+/* Final layout polish */
+.process-grid {
+  align-items: stretch;
+}
+
+.process-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.process-card .process-number {
+  margin-bottom: 1.25rem;
+}
+
+.process-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.process-card p:last-child {
+  margin-top: 0;
+}
+
+
+
+/* Serial #007 metric spacing fix */
+.serial-007-stat {
+  justify-content: flex-start;
+  padding-top: 3.25rem;
+}
+
+.serial-007-stat .section-label {
+  margin: 0 0 2.25rem;
+}
+
+.serial-007-stat .hero-stat-number {
+  display: block;
+  margin: 0;
+  line-height: 0.9;
+}
+
+.serial-007-stat .hero-stat-unit {
+  display: block;
+  margin: 1.75rem 0 0;
+  padding: 0;
+  line-height: 1.5;
+  position: static;
+}
+
+.serial-007-stat .stat-tags {
+  margin-top: 2.25rem;
+}
+
+/* Contact wording */
+.inquiry-contact {
+  margin-top: 1.35rem !important;
+}
+
+.inquiry-contact a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+@media (max-width: 760px) {
+  .serial-007-stat {
+    padding-top: 2.5rem;
+  }
+
+  .serial-007-stat .section-label {
+    margin-bottom: 1.75rem;
+  }
+
+  .serial-007-stat .hero-stat-unit {
+    margin-top: 1.35rem;
+  }
+}
+
+
+/* Historical Dallara image */
+.pedigree-image-wrap {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  min-height: 620px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #0e0e0d;
+}
+
+.pedigree-image {
+  width: 100%;
+  height: 100%;
+  min-height: 620px;
+  display: block;
+  object-fit: cover;
+  object-position: center 28%;
+  filter: grayscale(1) contrast(1.04);
+}
+
+@media (max-width: 950px) {
+  .pedigree-image-wrap,
+  .pedigree-image {
+    min-height: 70vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .pedigree-image-wrap,
+  .pedigree-image {
+    min-height: 480px;
+  }
+}
+
+
+/* Chassis #007 expanded photo gallery */
+.chassis-photo-gallery {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1.25rem;
+  max-width: 1400px;
+  margin: 1.25rem auto 0;
+}
+
+.chassis-gallery-item {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #0d0d0c;
+}
+
+.chassis-gallery-item-wide {
+  grid-row: span 2;
+}
+
+.chassis-gallery-item img {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  display: block;
+  object-fit: cover;
+}
+
+.chassis-gallery-item-wide img {
+  min-height: 745px;
+  object-position: center center;
+}
+
+.chassis-gallery-item figcaption {
+  padding: 1rem 1.1rem;
+  border-top: 1px solid var(--border);
+  color: rgba(243, 239, 231, 0.56);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .chassis-photo-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .chassis-gallery-item-wide {
+    grid-row: auto;
+  }
+
+  .chassis-gallery-item img,
+  .chassis-gallery-item-wide img {
+    min-height: 520px;
+  }
+}
+
+@media (max-width: 600px) {
+  .chassis-gallery-item img,
+  .chassis-gallery-item-wide img {
+    min-height: 360px;
+  }
+}
+
+
+.chassis-photo-gallery-detail {
+  margin-top: 3rem;
+}
